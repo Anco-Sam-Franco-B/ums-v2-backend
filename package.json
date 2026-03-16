@@ -1,0 +1,20 @@
+{
+  "name": "person-api",
+  "version": "1.1.0",
+  "description": "person api for serving some info about the users accounts and perform any CRUD operation with HTTP methods request.",
+  "keywords": [
+    "API"
+  ],
+  "license": "ISC",
+  "author": "L5SOD B",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mysql2": "^3.18.2",
+    "nodemon": "^3.1.14"
+  }
+}
