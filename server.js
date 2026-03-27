@@ -180,7 +180,12 @@ app.put('/update-user/:id', async (req, res)=>{
         })
     }
 })
-
+app.use((req,res)=>{
+    res.status(404).json({
+        message: 'Route Not found',
+        routeName: req.path
+    })
+})
 
 
 //starting server
